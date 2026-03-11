@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color:blueviolet;
+        }
+        p {
+            font-size:50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Heading</h1>
+    <p id="hello">Hello World!</p>
+    <input type=`"button" value="HELLO" onclick="addHello();"></input>
+    <script type="text/javascript">
+        function addHello() {
+            elem = document.getElememtById("hello");
+            text = elem.innerText;
+            elem.innerText = "Hello" + text;
+        }
+    </script>
+</body>
+</html>
