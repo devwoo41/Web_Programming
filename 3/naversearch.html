@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 검색</title>
+</head>
+<body>
+    <h3>네이버 검색</h3>
+    <hr>
+    <form name="naver" method="get" action="https://search.naver.com/search.naver">
+        <input type="text" name="query">
+        <input type="submit" value="검색">
+    </form>
+</body>
+</html>
+
+<!-- 네이버 검색 폼 만들기 실행과정
+ 1. 입력 창에 검색어를 입력하고 검색버튼을 누르면, action 속성에 저장된 url 뒤에 ?를 붙이고 폼 데이터를 name=value 형식으로 붙여 요청 메시지를 작성한다.
+ 2. 브라우저는 search.naver.com에 접속, search.naver 실행을 요청하고, query = 서울의 봄 전달
+ 3. 웹 서버에서 search.naver 응용 프로그램이 실행되고, 검색결과를 브라우저에 전달
+ 4. 브라우저는 검색 결과를 화면에 출력-->
