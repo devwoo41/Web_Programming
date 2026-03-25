@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 리스트</title>
+</head>
+<body>
+    <h3>데이터 리스트</h3>
+    <form>
+        이름 : <input type="text" name="name"
+        list="namelist"><br><br>
+        컬러 : <input type="color" name="color"
+        list="redlist"><br><br>
+        시간 : <input type="time" name="time"
+        list = "timelist"><br><br>
+    </form>
+    <datalist id="namelist">
+        <option value="홍길동"></option>
+        <option value="전우치"></option>
+        <option value="임꺽정"></option>
+        <option value="배추도사"></option>
+    </datalist>
+    <datalist id="redlist">
+        <option value="#ff0000"></option>
+        <option value="#cc0000"></option>
+        <option value="#880000"></option>
+        <option value="#440000"></option>
+    </datalist>
+    <datalist id="timelist">
+        <option value="08:00"></option>
+        <option value="12:00"></option>
+        <option value="16:00"></option>
+        <option value="20:00"></option>
+    </datalist>
+</body>
+</html>

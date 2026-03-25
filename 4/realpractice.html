@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴 주문</title>
+</head>
+<body>
+    <h3>실습2. 메뉴 주문</h3>
+    학번: 202401569 <br>
+    이름: 이우주<br><br>   
+    <form action="dummy" method="get">
+        <fieldset>
+            <legend>메뉴 선택</legend>        
+            <label>아메리카노 <input type="number" name="menu_americano" value="0" min="0" max="100" step="1">잔</label><br><br>
+            <label>카페라떼 <input type="number" name="menu_cafelatte" value="0" min="0" max="100" step="1">잔</label><br><br><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>결제 방법</legend>
+            현금 <input type="radio" id="pay1" name="howtopay" value="cash"><br>
+            카드 <input type="radio" id="pay2" name="howtopay" value="card"><br>
+            페이 <input type="radio" id="pay3" name="howtopay" value="pay"><br><br>
+        </fieldset><br>
+        <input type="submit" value="주문 완료">
+    </form>
+</body>
+</html>

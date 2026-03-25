@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>체크박스와 라디오 버튼</title>
+</head>
+<body>
+    <h3>자금성 메뉴</h3>
+    <form action="dummy" method="get">
+        <label>탕수육 <input type="checkbox" name="cooking" value="c1" checked></label><br>
+        <label>팔보채 <input type="checkbox" name="cooking" value="c2"></label><br>
+        <label>유린기 <input type="checkbox" name="cooking" value="c3"></label><br><br>
+        <input type="radio" id="meal1" name="meal" value="m1">
+        <label for="meal1">짜장면</label><br>
+        <input type="radio" id="meal2" name="meal" value="m2">        
+        <label for="meal2">짬뽕</label><br>
+        <input type="radio" id="meal3" name="meal" value="m3" checked>
+        <label for="meal3">볶음밥</label><br><br>
+        <input type="submit" value="주문">
+    </form>
+</body>
+</html>
