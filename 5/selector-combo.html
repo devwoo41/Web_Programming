@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택자의 조합</title>
+    <style>
+        h2, p {color:blue;}
+        .fruit, .fruitlist > li {font-weight: bold; color: red;}
+        .veggie, .veggielist > li {font-style: italic; color: green;}
+    </style>
+</head>
+<body>
+    <h2>과일과 채소</h2>
+    <p><span class="fruit">과일은 bold</span>,
+    <span class="veggie">채소는 italic</span>
+    으로 표시합시다.</p>
+    <ol>
+        <li class="fruit">과일</li>
+        <ul class="fruitlist">
+            <li>매실</li>
+            <li>사과</li>
+            <li>청포도</li>
+        </ul>
+        <li class="veggie">채소</li>
+        <ul class="veggielist">
+            <li>당근</li>
+            <li>배추</li>
+            <li>상추</li>
+        </ul>
+    </ol>
+</body>
+</html>
